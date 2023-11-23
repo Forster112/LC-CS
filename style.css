@@ -1,0 +1,40 @@
+body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #d6d1d1;
+}
+
+h1{
+  color: #06075c;
+  margin: 0;
+}
+
+.sub-heading{
+  color: #3538e0;
+  margin: 0;
+}
+
+#paragraph{
+  color: #fd0000;
+}
+
+div button{
+  width: 100px;
+  height: 35px;
+  background-color: #3538e0;
+  color: aliceblue;
+  border: 1px solid #06075c;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.05rem;
+}
+
+div button:hover{
+  background-color: aliceblue;
+  color: #3538e0;
+}
